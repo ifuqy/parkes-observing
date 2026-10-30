@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parkes 观测助手"
+  short_description: "按北京时间安排 Parkes 观测交接、逐源调度、启动与结束记录"
+  default_prompt: "使用 $parkes-observing，根据我的观测时段、项目、计划页数、Alias与有序源列表，创建两个一次性任务。"
