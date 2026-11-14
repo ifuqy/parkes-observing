@@ -8,7 +8,7 @@
 | jPORTAL | Write a message聊天框 | 350,870–898 |
 | jPORTAL | 右侧OIC | 1196,319–344 |
 | OIC表单 | Phone / Email | 565,235 / 980,235 |
-| OIC表单 | Register，勿误点deRegister | 430,289 |
+| OIC表单 | 接管用Register；停止并截图后按授权用deRegister释放本人OIC | Register约430,289；deRegister须当前页面定位 |
 | GARIWANG | Observing / Scheduler | 236,181 / 506,181 |
 | Scheduler | Load / Schedule | 55,296 / 652,296 |
 | Load | Project / 项目下拉结果 | 1188,220 / 1190,273 |
@@ -42,3 +42,6 @@
 - 遇工作人员Starting up同项目且已有所需后续目标，回复Thanks!、检查门户OIC并接管至{OIC_DISPLAY_NAME}，保留既有队列。额外源不是重新加载/调度的理由。
 - 截止前将Observing保持前台，当前目标、ID及Abort同屏；OIC证据在准备阶段取得，不到截止点才翻页找。当前Alias精确匹配用户目标是本次停止授权依据；平台审批仍独立生效。
 
+## 收尾入口
+
+- 停止确认并记录Observing画面后，回到jPORTAL → Observing → OIC → deRegister。执行前核实OIC仍是本人，执行后核实注销；不解除已接手者的OIC。页面布局变化时重新定位，不复用历史坐标。完整顺序见[可复用执行清单](checklist.md)。

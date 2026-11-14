@@ -14,4 +14,4 @@
 
 `scripts/make_plan.py` 仅计算时间与生成任务参数，不会连接望远镜或创建任务。运行 `python scripts/make_plan.py --help` 查看全部参数；生成后仍须通过 Codex 的任务工具创建并核对两项任务。
 
-界面经验和工具行为来自2026年10月的实际操作，可能随网站或客户端更新而变化。详见 [SKILL.md](SKILL.md) 和 [执行流程](references/workflow.md)。本项目为独立工作流，不代表台站官方软件。
+界面经验和工具行为来自2026年10月起的实际操作，可能随网站或客户端更新而变化。详见 [SKILL.md](SKILL.md)、[执行流程](references/workflow.md) 和 [可复用执行清单](references/checklist.md)；清单包含 P1365 实操提炼的时间预算、会话检查、截止操作与 OIC 释放经验，不含私人运行资料。本项目为独立工作流，不代表台站官方软件。
