@@ -43,7 +43,7 @@ def build_plan(start, end, project, page, plan, sources, now=None, *, username, 
         "start": start,
         "no_reply_takeover": start + timedelta(minutes=2),
         "prepare_end": end - timedelta(minutes=5),
-        "abort": end - timedelta(minutes=2),
+        "abort": end - timedelta(minutes=3),
         "end": end,
     }
     spec = {
